@@ -10,6 +10,8 @@ namespace MusicPlayer_with_Csharp_Console
     {
         static void Main(string[] args)
         {
+            //cevdettsedeff
+
             SoundPlayer voice = new SoundPlayer();
             string adress;
 
@@ -29,6 +31,9 @@ namespace MusicPlayer_with_Csharp_Console
             voice.Stop();
 
             Console.WriteLine("\nMusic is stopped...");
+
+            //cevdettsedeff
+
             Console.ReadLine();
 
         }
